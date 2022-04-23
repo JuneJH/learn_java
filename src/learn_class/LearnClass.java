@@ -1,3 +1,5 @@
+package learn_class;
+
 public class LearnClass {
     public String firstName;
     public String lastName;

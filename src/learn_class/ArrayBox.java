@@ -1,3 +1,5 @@
+package learn_class;
+
 public class ArrayBox<E> {
     private E[] array;
     private static final int DEFAULT_SIZE = 15;

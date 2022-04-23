@@ -1,4 +1,8 @@
-public class Test {
+package learn_class;
+
+import learn_class.ArrayBox;
+
+public class TestArrayBox {
 
     public static void main(String[] args) {
         ArrayBox<String> arrayBox = new ArrayBox<String>(2);

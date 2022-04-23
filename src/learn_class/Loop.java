@@ -1,3 +1,5 @@
+package learn_class;
+
 public  class  Loop{
     public static void main(String[] args){
         comp();

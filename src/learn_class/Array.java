@@ -1,3 +1,5 @@
+package learn_class;
+
 public class Array {
    public static void main(String[] args) {
        int[] swapA = {1,2,3,4};
