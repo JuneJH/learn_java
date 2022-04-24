@@ -1,6 +1,6 @@
-package learn_class;
+package box;
 
-public class ArrayBox<E> {
+public class ArrayBox<E> implements Box<E>{
     private E[] array;
     private static final int DEFAULT_SIZE = 15;
     private int size = 0;
@@ -13,7 +13,6 @@ public class ArrayBox<E> {
 
     /**
      * 判断是否越界
-     * @param index
      * @return
      */
     private boolean isIndexOut(int index){
@@ -27,7 +26,6 @@ public class ArrayBox<E> {
         if(this.array.length < size + this.size){
             Object[] arr = new Object[this.size + size + size / 2];
             int let = arr.length;
-            System.out.println("lennnn"+let);
             for(int i = 0; i < this.array.length; i ++){
                 arr[i] = this.array[i];
             }
@@ -54,6 +52,14 @@ public class ArrayBox<E> {
      */
     public int size(){
         return this.size;
+    }
+
+
+    public boolean add(E element) {
+        this.expansion(this.array.length + 1);
+        this.array[this.size ++] = element;
+
+        return false;
     }
 
     /**

@@ -1,4 +1,4 @@
-package learn_class;
+package box;
 
 public class BoxIndexOutException extends RuntimeException{
     public BoxIndexOutException(){}

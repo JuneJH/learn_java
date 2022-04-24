@@ -1,6 +1,6 @@
-package learn_class;
+package box;
 
-import learn_class.ArrayBox;
+import box.ArrayBox;
 
 public class TestArrayBox {
 
