@@ -8,5 +8,8 @@ public class Test_string {
         String str1 = "string";
         String str2 = "string";
         String str3 = new String("string");
+
+
+
     }
 }
