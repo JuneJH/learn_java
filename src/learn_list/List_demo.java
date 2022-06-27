@@ -14,14 +14,14 @@ public class List_demo {
         al.add("name");     //  新增
         al.addAll(al1);      // 并集
         al.remove(0); // 删除
-        al.removeAll(al1);    // 差集
+        al.removeAll(al1);   // 差集
         al.get(0);          // 获取
         al.size();          // 得到长度
         al.clear();         // 清楚
         al.contains(1);     // 是否存在
         al.indexOf(1);      // 找到该元素的位置
         al.lastIndexOf(2);//
-        al.isEmpty();        //
+        al.isEmpty();        // 判断是否为空
         Iterator<String> iterable = al.iterator(); //
         al.retainAll(al1); // 交集
         al.subList(0,1);  // 截取
