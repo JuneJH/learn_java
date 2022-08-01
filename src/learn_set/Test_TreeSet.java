@@ -22,7 +22,6 @@ public class Test_TreeSet {
         dogTreeSet.add(new Dog(" 富贵",3,1));
         dogTreeSet.add(new Dog(" 富贵",4,1));
         dogTreeSet.add(new Dog(" 富贵",5,1));
-
         System.out.println(dogTreeSet);
 
     }
