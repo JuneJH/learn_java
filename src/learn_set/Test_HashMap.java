@@ -32,6 +32,8 @@ public class Test_HashMap {
         for(String key : keySet){
             System.out.println(key + "==>"+hashMap.get(key));
         }
+
+//        Set<> = hashMap.entrySet();
         System.out.println("遍历第二遍");
         Iterator<String> it = keySet.iterator();
         while (it.hasNext()){
